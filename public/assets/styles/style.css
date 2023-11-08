@@ -133,6 +133,10 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     padding: 40px;
+    background-image: url(../images/img-domain-page/background-extensions.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 .domain-cart{
     display: flex;
@@ -143,6 +147,7 @@ body {
     font-family: 'Open Sans';
     font-weight: 500;
     font-size: 32px;
+    background-color: #FFFFFF;
     border: 1px solid var(--very-ligh-gray);
     border-radius: 8px;
     width: 30%;
@@ -209,7 +214,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 230px;
+    height: 2px;
     gap: 30px;
     background-color: #F8F8F8;
     padding-top: 20px;
