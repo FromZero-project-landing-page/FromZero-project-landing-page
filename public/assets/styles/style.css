@@ -151,6 +151,7 @@ body {
     border: 1px solid var(--very-ligh-gray);
     border-radius: 8px;
     width: 30%;
+    height: 80%;
 }
 .dominios-populares .domain-cart > div:first-of-type {
     display: flex;
@@ -194,6 +195,7 @@ body {
     color: var(--white);
     height: 50px;
     width: 100%;
+    border-radius: 10px;
     cursor: pointer;
     font-size: var(--lg);
     font-weight: bold;
