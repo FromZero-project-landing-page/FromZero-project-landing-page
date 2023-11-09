@@ -122,9 +122,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Open Sans';
     padding-bottom: 40px;
+    padding-top: 40px;
     color: #111C82;
 }
 .dominios-populares{
@@ -254,11 +255,67 @@ body {
     width: 30px;
     height: 30px;
 }
-
-
-
-
-
+.ofrecemos-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ofrecemos-info p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.ofrecemos-info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.planes-cart-article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+}
+.planes-cart-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-info{
+    background: rgb(50,99,214);
+    background: linear-gradient(0deg, rgba(50,99,214,1) 5%, rgba(140,219,165,1) 64%, rgba(104,213,103,1) 90%, rgba(89,214,132,1) 100%);
+    border-radius: 20px;
+    border: solid 1px #494949;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+    font-size: 14px;
+}
+.cart-info div{
+    padding: 10px 0;
+}
+.text-line-planes-cart{
+    border-top: solid 1px var(--very-light-pinkl);
+    width: 100%;
+    text-align: center;
+}
+.plan-name{
+    font-family: 'Popins', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #9362e2;
+}
+.plan-button button{
+    color: var(--white);
+    background-color: #2614F8;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 22px;
+    font-family: 'Inter', sans-serif;
+}
 
 
 
