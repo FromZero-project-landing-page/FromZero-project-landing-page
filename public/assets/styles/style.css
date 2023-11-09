@@ -16,10 +16,10 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Open Sans'
 }
+/*Estilos de header*/
 .header{
     display: flex;
     height: 80px;
@@ -76,6 +76,7 @@ body {
     font-size: var(--md);
     font-weight: bold;
 }
+/*Estilos del domain-page*/
 .registrar-dominio{
     display: flex;
     padding: 20px;
@@ -116,7 +117,7 @@ body {
     font-size: var(--lg);
     font-weight: bold;
 }
-.subtittle-Domain{
+.subtittle-page{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -212,6 +213,62 @@ body {
     color: #6913f5;
     font-size: 60px;
 }
+/*Estilos del hosting page*/
+.hosting-info-background{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/img-hosting-page/fondo-hosting.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;   
+}
+.hosting-space-background{
+    width: 620px;
+}
+.hosting-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.hosting-info h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: var(--white);
+    font-size: 30px;
+}
+.hosting-info p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:100 ;
+    color: var(--white);
+    font-size: 15px;
+}
+.check-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.check-text img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilo del footer*/
 .footer{
     display: flex;
     justify-content: space-around;
@@ -219,7 +276,6 @@ body {
     height: 2px;
     gap: 30px;
     background-color: #F8F8F8;
-    padding-top: 20px;
 }
 .footer .logo{
     cursor: pointer;
