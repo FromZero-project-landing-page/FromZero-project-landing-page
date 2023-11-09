@@ -280,6 +280,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 .cart-info{
     background: rgb(50,99,214);
@@ -313,7 +314,7 @@ body {
     border-radius: 10px;
     font-size: 13px;
     font-weight: 500;
-    padding: 10px 22px;
+    padding: 10px 40px;
     font-family: 'Inter', sans-serif;
 }
 
