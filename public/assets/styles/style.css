@@ -16,10 +16,10 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Open Sans'
 }
+/*Estilos de header*/
 .header{
     display: flex;
     height: 80px;
@@ -76,6 +76,7 @@ body {
     font-size: var(--md);
     font-weight: bold;
 }
+/*Estilos del domain-page*/
 .registrar-dominio{
     display: flex;
     padding: 20px;
@@ -116,14 +117,15 @@ body {
     font-size: var(--lg);
     font-weight: bold;
 }
-.subtittle-Domain{
+.subtittle-page{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Open Sans';
     padding-bottom: 40px;
+    padding-top: 40px;
     color: #111C82;
 }
 .dominios-populares{
@@ -133,6 +135,10 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     padding: 40px;
+    background-image: url(../images/img-domain-page/background-extensions.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 .domain-cart{
     display: flex;
@@ -143,9 +149,11 @@ body {
     font-family: 'Open Sans';
     font-weight: 500;
     font-size: 32px;
+    background-color: #FFFFFF;
     border: 1px solid var(--very-ligh-gray);
     border-radius: 8px;
     width: 30%;
+    height: 80%;
 }
 .dominios-populares .domain-cart > div:first-of-type {
     display: flex;
@@ -189,6 +197,7 @@ body {
     color: var(--white);
     height: 50px;
     width: 100%;
+    border-radius: 10px;
     cursor: pointer;
     font-size: var(--lg);
     font-weight: bold;
@@ -204,4 +213,145 @@ body {
 .dominios-populares .domain-cart:nth-child(3) > h2{
     color: #6913f5;
     font-size: 60px;
+}
+/*Estilos del hosting page*/
+.hosting-info-background{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/img-hosting-page/fondo-hosting.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;   
+}
+.hosting-space-background{
+    width: 620px;
+}
+.hosting-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.hosting-info h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: var(--white);
+    font-size: 30px;
+}
+.hosting-info p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:100 ;
+    color: var(--white);
+    font-size: 15px;
+}
+.check-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.check-text img{
+    width: 30px;
+    height: 30px;
+}
+.ofrecemos-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ofrecemos-info p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.ofrecemos-info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.planes-cart-article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+}
+.planes-cart-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.cart-info{
+    background: rgb(50,99,214);
+    background: linear-gradient(0deg, rgba(50,99,214,1) 5%, rgba(140,219,165,1) 64%, rgba(104,213,103,1) 90%, rgba(89,214,132,1) 100%);
+    border-radius: 20px;
+    border: solid 1px #494949;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+    font-size: 14px;
+}
+.cart-info div{
+    padding: 10px 0;
+}
+.text-line-planes-cart{
+    border-top: solid 1px var(--very-light-pinkl);
+    width: 100%;
+    text-align: center;
+}
+.plan-name{
+    font-family: 'Popins', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #9362e2;
+}
+.plan-button button{
+    color: var(--white);
+    cursor: pointer;
+    background-color: #2614F8;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 13px 40px;
+    font-family: 'Inter', sans-serif;
+}
+/*Estilo del footer*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 2px;
+    gap: 30px;
+    background-color: #F8F8F8;
+}
+.footer .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.footer .logo img{
+    height: 150px;
+    width: 150px;
+    transition: all 0.3s;;
+}
+.footer-listas h3{
+    color:#262626;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.footer .logo img:hover{
+    transform: scale(1.2);
+}
+.footer ul li{
+    list-style: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.footer ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: #545c5a;
 }
