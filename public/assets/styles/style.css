@@ -708,6 +708,68 @@ main{
     margin-right: 25px;
 }
 
+
+
+.main-page-fifth-article{
+    display: flex;
+    margin: 20px 0;
+    width: 80%;
+    height: 35%;
+    background-color: #F4F4F4;
+}
+.main-page-fifth-article .left-side{
+    width: 40%;
+    height: 100%;
+}
+.main-page-fifth-article .right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+.main-page-fifth-article .right-side div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.main-page-fifth-article .left-side img{
+    width: 80%;
+    height: 100%;
+}
+.main-page-fifth-article .right-side div{
+    width: 60%;
+    height: 100%;
+}
+
+
+.main-page-contact{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    align-items: center;
+    width: 80%;
+    height: 68px;
+    margin: 20px 0;
+    gap: 5px;
+    border-radius: 10px;
+    background-color: #000000;
+}
+.main-page-contact h3{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.main-page-contact p{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.main-page-contact button{
+    margin-right: 25px;
+}
+
 /*Estilos del domain-page*/
 .registrar-dominio{
     display: flex;
