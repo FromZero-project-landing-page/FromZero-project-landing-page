@@ -1,4 +1,4 @@
-**[Autors](#autors) | [Segmentos Objetivo](#segmentos-objetivo) | [Principales características de FromZero](#principales características-de-fromzero)**
+**[Autors](#autors) | [Segmentos Objetivo](#segmentos-objetivo) | [Principales características de FromZero](#principales-caracteristicas-de-fromzero)**
 
 ## From Zero
 
