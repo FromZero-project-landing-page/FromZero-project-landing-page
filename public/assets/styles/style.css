@@ -346,6 +346,16 @@ main{
 }
 
 /*About us page*/
+.subtittle-about-us{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-family: 'Open Sans';
+    padding: 25px 0;
+    color: #111C82;
+}
 .about-us-information{
     background-image: url(../images/img-about-us-page/description-background.jpg);
     background-size: cover;
@@ -386,20 +396,202 @@ main{
     width: 40vh;
     height: 35vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.about-us-team{
+    width: 100%;
+}
+.about-us-team .team{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+}
+.team-member-card .photo{
+    background-color: #312F2F;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.team-member-card .information{
+    color: var(--white);
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 18px;
+    background-color: #312F2F;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.team-member-card .information .team-member-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7px 0;
+}
+.team-member-card .information .websites{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 0;
+}
+.about-us-highlight {
+    width: 100%;
+    height: 30vh;
+    background-image: url(/public/assets/images/img-about-us-page/highlight-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--white);
+}
+.about-us-highlight .subtittle{
+    font-weight: 500;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-size: 23px;
+    padding: 20px 0;
+}
+.about-us-highlight .information-highlight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    width: 90%;
+    height: 80%;
+}
+.information-highlight .left-side{
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    gap: 55px;
+    padding: 15px 0;
+    width: 40%;
+    height: 80%;
+    font-weight: 400;
+    font-family: 'Lato';
+    font-size: 25px;
+}
+.information-highlight .right-side{
+    width: 60%;
+    height: 80%;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 40px;
+}
+.feedback{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 40px;
+}
+.feedback .feedback-card{
+    width: 30vh;
+    height: 45vh;
+    background-color: #D9D9D9;
+    color: var(--black);
+    font-family: 'Open Sans';
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback-card .feedback-text{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 25px 0 25px;
+}
+.client-profile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #F8F8F8;
+    padding: 10px 0;
+}
+.client-profile img{
+    height: 50px;
+    width: 50px;
+}
+.stars img{
+    width: 40px;
+    height: 40px;
+}
+.feedback-button{
+    background-color: var(--black);
+    border-radius: 10px;
+    border: none;
+    color: var(--white);
+    height: 48px;
+    width: 270px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+.btn-more-feedbacks{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.characteristics{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+}
+.characteristics-card{
+    width: 40vh;
+    height: 70vh;
+    background-color: #F8F8F8;
+    color: var(--black);
+    font-family: 'Open Sans';
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.characteristics-img{
+    width: 100%;
+    height: 70%;
+}
+.characteristics-img img{
+    width: 100%;
+    height: 100%;
+}
+.characteristics-text{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.characteristics-text h4{
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: bold;
+}
+.characteristics-text p{
+    color: #606060;
+    font-family: 'Open Sans';
+}
 
 
 
