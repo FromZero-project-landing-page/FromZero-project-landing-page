@@ -28,6 +28,7 @@ body {
     align-items: center;
     border-bottom: 1px solid var(--very-light-pinkl);
     background-color: var(--very-light-blue);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); 
 }
 .header .logo{
     cursor: pointer;
@@ -843,6 +844,7 @@ main{
 }
 
 /*Estilo del footer*/
+
 .footer{
     display: flex;
     justify-content: space-around;
@@ -854,11 +856,17 @@ main{
 .footer .logo{
     cursor: pointer;
     margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .footer .logo img{
     height: 150px;
     width: 150px;
     transition: all 0.3s;;
+}
+.footer-listas{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .footer-listas h3{
     color:#262626;
