@@ -630,13 +630,6 @@ main{
 }
 
 
-
-
-
-
-
-
-
 .main-page-fifth-article{
     display: flex;
     justify-content: space-around;
@@ -663,6 +656,10 @@ main{
     align-items: center;
     width: 100%;
 }
+.preguntas-frecuentes-info h4, .preguntas-frecuentes-info p {
+    display: block; 
+}
+
 .main-page-fifth-article .left-side img{
     height: 30vh;
     width: 30vh;
@@ -680,6 +677,7 @@ main{
 .preguntas-frecuentes-info{
     background-color: var(--white);
     padding: 10px;
+    
 }
 .main-page-contact{
     display: flex;
